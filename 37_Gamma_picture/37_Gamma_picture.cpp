@@ -14,7 +14,7 @@ int main()
 	for (int t = 255; t > 0; t--)
 	{
 		float t_0_1 = t / 255.0;
-		b[t] = (uint8_t)255 * pow(t_0_1, 0.55);
+		b[t] = (uint8_t)255 * pow(t_0_1, 0.5);
 	}
 
 	int height = srcMat.rows; //ÐÐÊý
